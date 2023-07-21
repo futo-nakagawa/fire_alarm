@@ -28,10 +28,10 @@ def photo():
 
     # SFTP接続準備
     config = {
-        "host": "click.ecc.ac.jp",
-        "port": 22,
-        "username": "sys1_iesk2a_c",
-        "password": "R5nVBSTH"
+        "host": "your host",
+        "port": 00,
+        "username": "name",
+        "password": "password"
     }
 
     client = paramiko.SSHClient()
@@ -60,7 +60,6 @@ def temp_res():
                 temp = None
             else:
                 return temp
-                     
         time.sleep(3)
     
 #gasに値を送信
